@@ -1,42 +1,58 @@
-# tribute-page-
-Tribute to the legend APJ Abdul Kalam
-<style>
-body {
-  margin-top: 60px;
-  background-color: ;
+html,body{
+  min-width:290px;
+    color: white;
+  text: white;
+    background-color: black;
+  line-height: 2;
+   font-family:  monospace;
 }
-h1 {
-  font-size: 50px;
-  font-family: lobster;
-}
-p{
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-}
-h2{
-  font-size: 30px;
-  font-family: monospace;
-  position: relative;
-}
-h3{
-  font-family: lobster;
-  text-align: center;
-}
-.thick-black-border{
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-}
-.silver-background {
-  background-color: silver;
-}
-#image{
-  position: relative;
-}
-h6 {
-  text-align: left;
-  font-family: lobster;
+#nav-bar {
+position:fixed;
+  min-width: 290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  white-space: normal;
 }
 
-</style>
+header{
+  text-align: center;
+  font-weight: thick
+    font-size: 100rem;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+a li:hover {
+    background-color: white!important;
+    color: white!important;
+}
+
+#main-doc header{
+  color: black;
+  text-align: left;
+  margin: 0px;
+  background: white;
+}
+code {
+    display:block;
+  white-space: pre;
+  position: relative;
+    word-wrap: normal;
+    line-height: 3;
+    background-color: lightgray;
+  color: sienna;
+  padding: 15px;
+  margin: 10px;
+    border-radius: 7px;
+}
+section li {
+  margin:15px 0px 0px 20px; 
+}
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #navbar ul {
+  border:1px solid;
+    height:207px;
+  }
