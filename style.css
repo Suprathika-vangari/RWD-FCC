@@ -1,0 +1,42 @@
+# tribute-page-
+Tribute to the legend APJ Abdul Kalam
+<style>
+body {
+  margin-top: 60px;
+  background-color: ;
+}
+h1 {
+  font-size: 50px;
+  font-family: lobster;
+}
+p{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+h2{
+  font-size: 30px;
+  font-family: monospace;
+  position: relative;
+}
+h3{
+  font-family: lobster;
+  text-align: center;
+}
+.thick-black-border{
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+}
+.silver-background {
+  background-color: silver;
+}
+#image{
+  position: relative;
+}
+h6 {
+  text-align: left;
+  font-family: lobster;
+}
+
+</style>
